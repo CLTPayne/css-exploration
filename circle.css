@@ -1,7 +1,23 @@
+body {
+  background: lightgray;
+}
+
 .circle {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   background: black;
   margin: 40px;
+  display: flex;
+  justify-content: center;
+  }
+  :hover {
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: 200;
+  }
+
+@keyframes bounce{
+  from { transform: translate3d(100%,0,0) }
+  to { transform: translate3d(0,100%,0) }
 }
