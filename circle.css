@@ -21,6 +21,7 @@ body {
   margin: 40px;
   background: radial-gradient(circle at 50% 120%, pink, yellow 20%,
     pink 75%, yellow 100%);
+  animation: bounce 2s ease-out infinite;
 }
 
 .circle:before {
@@ -49,7 +50,6 @@ body {
     rgba(255, 255, 255, 0) 60%);
   transform: translateX(-80px) translateY(-90px) skewX(-20deg);
   filter: blur(10px);
-  animation: shine-move 2s ease-out infinite;
 }
 
 .circle .shadow {
@@ -62,7 +62,7 @@ body {
   z-index: -1;
 }
 
-@keyframes shine-move {
+@keyframes bounce {
   0% {
     transform: scale(1);
   }
