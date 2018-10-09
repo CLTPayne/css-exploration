@@ -4,10 +4,12 @@ Having not previously made any conscious effort to tackle CSS, exploring the wor
 
 #### Getting Started
 
+Circle: 
+
 ```
 $ git clone https://github.com/CLTPayne/css-exploration.git
 $ cd css-exploration
-$ open index.html
+$ open circle.html
 ```
 
 #### Current State (minus animation)
